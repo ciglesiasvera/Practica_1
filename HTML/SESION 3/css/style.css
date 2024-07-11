@@ -1,10 +1,12 @@
 /* estilo con link*/
 header{
     background:darkgreen;
+    text-align: center;
 }
 
 section{
     background:darkcyan;
+    text-align: center;
 }
 
 h1{
@@ -18,12 +20,14 @@ img{
     width: 150px;
 }
 
-div {
+.container1 {
     background-color: RGB(0, 0, 255);
+    text-align: center;
 
 }
 
 footer {
     background-color: hsl(189, 100%, 50%);
+    text-align: center;
 }
 /* agregar dos secciones o mas, usar color tipo rgb, rgba , hsl  y hexadecimale
