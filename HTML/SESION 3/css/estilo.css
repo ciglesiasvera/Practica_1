@@ -1,0 +1,79 @@
+/* estilo con link*/
+body {
+    background-color: burlywood;
+    width: auto;
+    }
+
+header{
+    background:rgb(67, 88, 67);
+    text-align: center;
+    }
+
+h1{
+    color:rgb(231, 208, 208);
+    font-size: 70px;
+    }
+
+h2 {
+    color:rgb(147, 87, 8);
+    font-size: 60px;
+    text-align: center;
+    }
+
+h3 {
+    color:rgb(195, 131, 12);
+    font-size: 50px;
+    text-align: center;
+    }
+
+h4 {
+    color:rgb(195, 131, 12);
+    font-size: 40px;
+    text-align: center;
+    }
+
+p   {
+    background:darkcyan;
+    text-align: justify;
+    font-size: 30px;
+    }
+
+ul {
+    font-size: 20px;
+    }
+
+img {
+    width: 450px;
+    height: 300px;
+    
+    }
+
+.class-info {
+    background-color:;
+    
+    }
+
+.class-info, img {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    }
+
+.class-info, img:hover {
+    transform: scale(1.2);
+        
+    }
+
+.class-video {
+    background-color: ;
+    text-align: justify;
+    }
+
+.class-video, video {
+    text-align: center;
+    
+    }
+
+footer {
+    background-color: hsl(189, 100%, 50%);
+    text-align: center;
+    }
