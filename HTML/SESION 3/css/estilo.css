@@ -21,13 +21,14 @@ h2 {
     }
 
 h3 {
-    color:rgb(195, 131, 12);
+    color:rgb(20, 117, 11);
     font-size: 50px;
     text-align: center;
+    padding-top: 5vh;
     }
 
 h4 {
-    color:rgb(195, 131, 12);
+    color:rgb(9, 88, 21);
     font-size: 40px;
     text-align: center;
     }
@@ -36,10 +37,12 @@ p   {
     background:darkcyan;
     text-align: justify;
     font-size: 30px;
+    padding: 10vh 10vh 10vh 10vh;
     }
 
 ul {
     font-size: 20px;
+    padding-bottom: 5vh;
     }
 
 img {
@@ -54,6 +57,7 @@ img {
     }
 
 .class-info, img {
+    padding: 10vh 10vh 10vh 10vh;
     text-align: center;
     transition: transform 0.3s ease-in-out;
     }
@@ -66,6 +70,7 @@ img {
 .class-video {
     background-color: ;
     text-align: justify;
+    padding: 10vh 10vh 10vh 10vh;
     }
 
 .class-video, video {
@@ -74,6 +79,7 @@ img {
     }
 
 footer {
-    background-color: hsl(189, 100%, 50%);
+    background-color: hsl(189, 30%, 61%);
     text-align: center;
+    padding-top: 3vh;
     }
