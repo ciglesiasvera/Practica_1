@@ -1,0 +1,29 @@
+p {
+    background: green;
+    border: 1px solid;
+    padding: 20px;
+    display: inline;
+}
+
+span {
+    background: yellow;
+    margin: 20px;
+    /*margin-top: -40px;
+    margin-left: -50px;*/
+    padding: 20px;
+    display: block;
+}
+
+.first {
+    margin-bottom: 0;
+}
+
+.second {
+    margin-top: 0;
+}
+
+section {
+    background: lightblue;
+    width: 500px;
+    margin: auto;
+}

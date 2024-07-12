@@ -1,48 +1,96 @@
 /* estilo con link*/
 body {
-    background-color: burlywood;
-    width: auto;
+    background-color: rgb(126, 167, 131);
+    max-width: 100%;
     }
 
 header{
-    background:rgb(67, 88, 67);
+    background-image: url("../img/textura-volcanes.png");
     text-align: center;
+    margin-right: 10vh;
+    margin-left: 10vh;
     }
 
 h1{
-    color:rgb(231, 208, 208);
+    color:#fff;
     font-size: 70px;
+    padding: 10vh 10vh 10vh 10vh;
     }
 
 h2 {
-    color:rgb(147, 87, 8);
+    color:#fff;
     font-size: 60px;
-    text-align: center;
-    }
-
-h3 {
-    color:rgb(20, 117, 11);
-    font-size: 50px;
     text-align: center;
     padding-top: 5vh;
     }
 
+h3 {
+    color:#fff;
+    font-size: 50px;
+    text-align: center;
+    padding: 10vh 10vh 10vh 10vh;
+    }
+
 h4 {
-    color:rgb(9, 88, 21);
+    color:rgb(188, 208, 191);
     font-size: 40px;
     text-align: center;
+    padding: 10vh 10vh 10vh 10vh;
     }
 
 p   {
     background:darkcyan;
     text-align: justify;
     font-size: 30px;
-    padding: 10vh 10vh 10vh 10vh;
+    color: #fff;
+    padding: 5vh 5vh 5vh 5vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
     }
 
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+
+      .roboto-regular-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      .roboto-bold-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
 ul {
     font-size: 20px;
+    font-style: oblique;
     padding-bottom: 5vh;
+    color: #ce9326 !important;
+    
+    }
+
+li {
+    font-size: 20px;
+    color: #ce9326 !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     }
 
 img {
@@ -52,12 +100,11 @@ img {
     }
 
 .class-info {
-    background-color:;
-    
+        
     }
 
 .class-info, img {
-    padding: 10vh 10vh 10vh 10vh;
+    padding: 1vh 1vh 1vh 1vh;
     text-align: center;
     transition: transform 0.3s ease-in-out;
     }
@@ -68,7 +115,7 @@ img {
     }
 
 .class-video {
-    background-color: ;
+    
     text-align: justify;
     padding: 10vh 10vh 10vh 10vh;
     }
@@ -79,7 +126,7 @@ img {
     }
 
 footer {
-    background-color: hsl(189, 30%, 61%);
-    text-align: center;
-    padding-top: 3vh;
+    background-color: hsl(162, 25%, 43%);
+    
+    padding-top: 1vh;
     }
