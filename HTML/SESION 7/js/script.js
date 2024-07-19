@@ -1,4 +1,7 @@
-alert("Bienvenidos a Supermercados Araucania");
+//alert("Bienvenidos a Supermercados Araucania");
+document.addEventListener("DOMContentLoaded", function() {
+    document.body.innerHTML = "<h1>Bienvenidos a Supermercados Araucania</h1>";
+});
 alert("Elige una opcion: 1. Subtotal, 2. Total c/IVA, 3. Descuento");
 opcion=parseInt(prompt("Escribe el numero de opcion"));
 var precioProd1;
