@@ -1,0 +1,38 @@
+function Backpack(color,size,pocketsQuantity,zippersQuantity) {
+    //Properties
+    this.color = color;
+    this.size = size;
+    this.pocketsQuantity = pocketsQuantity;
+    this.zippersQuantity = zippersQuantity;
+    //Object methods
+    this.open = function() {
+        console.log('The Backpack is Open');
+    },
+    this.close = function() {
+        console.log('The Backpack is Closed');
+    }
+};
+//Creating instances of the object
+let backpack1 = new Backpack('black','5in',2,2);
+let backpack2 = new Backpack('white','7in',3,2);
+let backpack3 = new Backpack('blue','12in',4,3);
+//Accessing the properties of the instances
+console.log(backpack1.color);
+console.log(backpack2.color);
+console.log(backpack3.color);
+console.log(backpack1.size);
+console.log(backpack2.size);
+console.log(backpack3.size);
+console.log(backpack1.pocketsQuantity);
+console.log(backpack2.pocketsQuantity);
+console.log(backpack3.pocketsQuantity);
+console.log(backpack1.zippersQuantity);
+console.log(backpack2.zippersQuantity);
+console.log(backpack3.zippersQuantity);
+//Accessing the methods of the instances
+backpack1.open();
+backpack2.open();
+backpack3.open();
+backpack1.close();
+backpack2.close();
+backpack3.close();
